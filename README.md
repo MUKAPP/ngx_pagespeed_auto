@@ -1,3 +1,7 @@
+
+fork 自 https://github.com/madlifer/ngx_pagespeed_auto
+适配最新版宝塔
+
 # 宝塔面板下使用 Nginx_Pagespeed给网站前端加速
 
 ## 引子:
