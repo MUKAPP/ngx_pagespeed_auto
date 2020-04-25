@@ -55,7 +55,7 @@ GoogleDevelopers：[https://developers.google.com/speed/docs/mod_pagespeed](http
 基于以上手动安装过程，我写了个**自动化安装的shell**，可以通过一行命令进行安装:
 
 ```shell
- wget https://raw.githubusercontent.com/madlifer/ngx_pagespeed_auto/master/nps-auto.sh && bash nps-auto.sh
+ wget https://raw.githubusercontent.com/MUKAPP/ngx_pagespeed_auto/master/nps-auto.sh && bash nps-auto.sh
 ```
 
 ## 模块的配置
