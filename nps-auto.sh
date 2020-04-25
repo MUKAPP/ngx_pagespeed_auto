@@ -37,7 +37,7 @@ download_ngx_pagespeed(){
 
 install_ngx_pagespeed(){
 	cd ${NGX_DIR}/src
-	NGX_CONF=`/usr/bin/nginx -V 2>&1 >/dev/null | grep 'configure' --color | awk -F':' '{print $2;}'`
+	NGX_CONF=`nginx -V 2>&1 >/dev/null | grep 'configure' --color | awk -F':' '{print $2;}'`
 	NGX_CONF="--add-module=${NGX_DIR}/src/ngx_pagespeed $NGX_CONF"
 	./configure $NGX_CONF
 	make
